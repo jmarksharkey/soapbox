@@ -2,7 +2,7 @@
 %%%      a constant value in its call.
 %%% @copyright 2012 Klarna AB
 -module(soapbox_method_constant, [Value]).
--compile([{parse_transform, pmod_transform}]).
+-compile([{parse_transform, pmod_pt}]).
 %% -behaviour(soapbox_method). %wont pass check because parameterized
 
 %%%

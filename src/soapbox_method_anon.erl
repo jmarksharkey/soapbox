@@ -1,7 +1,7 @@
 %%% @doc Parameterized module for creating an anonymous soapbox method.
 %%% @copyright 2012 Klarna AB
 -module(soapbox_method_anon, [Spec, Verify, Call]).
--compile([{parse_transform, pmod_transform}]).
+-compile([{parse_transform, pmod_pt}]).
 %% -behaviour(soapbox_method). %wont pass check because parameterized
 
 %%%

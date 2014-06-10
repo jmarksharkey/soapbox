@@ -7,7 +7,7 @@
 %%%      either 'left' or 'right' for each soapbox_method callback.
 %%% @copyright 2012 Klarna AB
 -module(soapbox_method_router, [Left, Right, Routing]).
--compile([{parse_transform, pmod_transform}]).
+-compile([{parse_transform, pmod_pt}]).
 
 %%%
 %%%   Copyright 2011-2013 Klarna AB
